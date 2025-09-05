@@ -18,7 +18,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="fixed w-full bg-white shadow-md">
+    <div className="fixed w-full bg-white shadow-md z-999">
       <div className="container mx-auto flex justify-between items-center py-[20px] px-[16px] lg:px-0 font-montserrat font-medium">
         <div className="flex lg:hidden items-center gap-[10px]">
           <FiMenu size={24} onClick={handleClick} />{" "}
