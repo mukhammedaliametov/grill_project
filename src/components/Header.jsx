@@ -64,7 +64,7 @@ const Header = () => {
             <FaTelegramPlane />
           </a>
         </div>
-        <nav className={`absolute top-0 bg-white shadow-md flex lg:hidden flex-col w-full py-[30px] px-[25px] transition-all duration-500 ${nav ? 'left-0' : 'left-[-100%]'}`}>
+        <nav className={`absolute top-0 bg-white shadow-md flex lg:hidden flex-col w-[80%] h-[100vh] py-[30px] px-[25px] transition-all duration-500 ${nav ? 'left-0' : 'left-[-100%]'}`}>
           <div className="absolute top-0 right-0 m-[25px]">
             <IoClose className="text-[24px] text-primary-black" onClick={handleClick} />
           </div>

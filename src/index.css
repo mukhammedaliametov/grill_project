@@ -15,3 +15,7 @@
     --font-jost: "Jost", sans-serif;
 	--font-comfortaa: "Comfortaa", sans-serif;
 }
+
+body{
+	background-color: #f1f1f1;
+}

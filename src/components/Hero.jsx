@@ -11,10 +11,10 @@ const Hero = () => {
       style={{ backgroundImage: `url(${Background})` }}
       className="w-full h-[80vh] lg:h-[100vh] bg-cover bg-center pt-[60%] sm:pt-[45%] md:pt-[30%] lg:pt-[20%]"
     >
-      <div className="bg-[#120c0560] absolute top-0 left-0 w-full h-[100vh] z-10"></div>
+      <div className="bg-[#120c0560] absolute top-0 left-0 w-full h-[80vh] lg:h-[100vh] z-10"></div>
       <div className="container relative mx-auto px-[16px] text-primary-white z-20 h-full">
         <div>
-          <h1 className="text-[46px]/[39px] lg:text-[64px]/[62px] font-comfortaa font-black">
+          <h1 className="text-[38px]/[39px] lg:text-[64px]/[62px] font-comfortaa font-black">
             Премиальные <br /> гриль-кухни
           </h1>
           <p className="font-montserrat text-[16px] md:text-[18px] mt-[20px]">
