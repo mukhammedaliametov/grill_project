@@ -42,7 +42,7 @@ const Advantages = () => {
       <h2 className="text-primary-black text-[36px] lg:text-[44px] font-bold text-center font-jost mt-[80px]">Преимущества</h2>
       <div className="flex flex-col md:flex-row items-top gap-[20px] bg-transparent lg:bg-white rounded-[20px] lg:shadow-md lg:px-[50px] py-[30px] font-montserrat my-[30px] lg:my-[80px] mx-0 lg:mx-[80px]">
         {advantagesItems.map((item, index) => (
-          <div key={index} className="bg-white shadow-md p-[20px] rounded-[12px]">
+          <div key={index} className="bg-white lg:bg-transparent shadow-md lg:shadow-none p-[20px] lg:p-0 rounded-[12px]">
             <IoCheckmarkCircleOutline className="text-[36px] text-primary-black" />
             <h4 className='my-[8px] text-[16px] lg:text-[18px] font-semibold w-[90%] text-primary-black'>{item.title}</h4>
             <p className="text-dark-gray w-[90%] lg:w-[70%] text-[14px] lg:text-[16px]">{item.info}</p>
@@ -63,7 +63,7 @@ const Advantages = () => {
           </div>
         ))}
       </div>
-      <button className="w-full py-[8px] lg:py-[12px] px-[54px] lg:px-[32px] rounded-[43px] cursor-pointer mx-auto my-[20px] lg:my-[40px] border-2 border-primary-red duration-300 text-primary-white lg:text-primary-red font-montserrat bg-primary-red lg:bg-transparent hover:bg-primary-red hover:text-primary-white">
+      <button className="w-full md:w-auto block py-[8px] lg:py-[12px] px-[54px] lg:px-[32px] rounded-[43px] cursor-pointer mx-auto my-[20px] lg:my-[40px] border-2 border-primary-red duration-300 text-primary-white lg:text-primary-red font-montserrat bg-primary-red lg:bg-transparent hover:bg-primary-red hover:text-primary-white">
         Заказать звонок
       </button>
     </div>
