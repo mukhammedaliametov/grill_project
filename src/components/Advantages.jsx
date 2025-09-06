@@ -52,8 +52,8 @@ const Advantages = () => {
       <div className="flex flex-col gap-[20px] md:gap-0 md:flex-row justify-between items-top mx-0 lg:mx-[100px] font-montserrat">
         {advantagesCards.map((item, index) => (
           <div key={index} className="group w-full sm:w-[230px] lg:w-[306px] ">
-            <div className="overflow-hidden rounded-[20px]">
-            <img src={item.img} alt={item.title} className="group-hover:scale-105 cursor-pointer duration-300" />
+            <div className="overflow-hidden rounded-[20px] w-full">
+            <img src={item.img} alt={item.title} className="w-full group-hover:scale-105 cursor-pointer duration-300" />
             </div>
             <h4 className="text-primary-black font-[600] text-[16px] lg:text-[20px] my-[10px] lg:my-[20px] cursor-pointer">{item.title}</h4>
             <p className="text-dark-gray text-[14px] lg:text-[16px]">{item.info}</p>
